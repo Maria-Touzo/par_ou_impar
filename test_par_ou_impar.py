@@ -1,7 +1,6 @@
 import pytest
 from par_ou_impar import verificar_numero
 
-
 @pytest.mark.parametrize("numero, resultado",[
         (2, "Par"),
         (3, "Impar"),
